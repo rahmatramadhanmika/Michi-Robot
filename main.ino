@@ -45,11 +45,11 @@ const char *HEARING_FOLDER = "/hearing";
 #define SILENCE_DURATION 3000
 #define LED_PIN 2
 
-const char *ssid = "iPhone 6s";
-const char *password = "hihiha123";
-const char *serverUrl = "http://172.20.10.2:5000/process_input";
-const char *wakeWordUrl = "http://172.20.10.2:5000/detect_wakeword";
-const char *streamURL = "http://172.20.10.2:5000/audio_response";
+const char *ssid = "ssid";
+const char *password = "pass";
+const char *serverUrl = "http://backend_server_url/process_input";
+const char *wakeWordUrl = "http://backend_server_url/detect_wakeword";
+const char *streamURL = "http://backend_server_url/audio_response";
 
 char *MQTT_SERVER = "broker.emqx.io";
 int MQTT_PORT = 1883;
